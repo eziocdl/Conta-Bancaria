@@ -33,7 +33,7 @@ public class ContaTerminal {
             System.out.println(mensagem);
             input = scanner.nextLine();
             if (!input.matches("\\d{2,}-\\d{1,}")) {
-                System.out.println("Número da conta inválido. O número deve ter no mínimo dois dígitos antes do traço.");
+                System.out.println("Número da conta inválido.O número deve ter no mínimo dois dígitos antes do traço.");
             }
         } while (!input.matches("\\d{2,}-\\d{1,}"));
         int index = input.indexOf("-");
